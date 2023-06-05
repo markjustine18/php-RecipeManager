@@ -1,0 +1,61 @@
+main {
+  margin: 20px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.profile {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fade-in 0.5s ease;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #333;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff6600;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
